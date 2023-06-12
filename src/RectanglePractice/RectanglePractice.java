@@ -19,15 +19,21 @@ class Rectangle {
     public int getBreadth() {
         return breadth;
     }
+
+    public int calcPerimeter() {
+        return 2 * (length + breadth);
+    }
 }
 
 public class RectanglePractice {
     public static void main(String[] args) {
-        Rectangle r = new Rectangle();
-        r.setLength(10);
-        r.setBreadth(20);
-        
-        System.out.println("Length: " + r.getLength());
-        System.out.println("Breadth: " + r.getBreadth());
+        Rectangle rect = new Rectangle();
+        rect.setLength(10);
+        rect.setBreadth(20);
+
+        System.out.println("Length: " + rect.getLength());
+        System.out.println("Breadth: " + rect.getBreadth());
+
+        System.out.println("Perimeter: " + rect.calcPerimeter());
     }
 }
