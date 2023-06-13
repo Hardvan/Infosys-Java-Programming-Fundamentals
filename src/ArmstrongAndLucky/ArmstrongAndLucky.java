@@ -67,6 +67,7 @@ public class ArmstrongAndLucky {
     }
 
     public static boolean isLucky(int n) {
+        // ? Lucky Number: Sum of squares of digits starting from 2nd position (from left) is divisible by 9
         int rev = 0;
         while (n > 0) {
             int digit = n % 10;
