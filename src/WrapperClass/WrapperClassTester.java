@@ -7,6 +7,8 @@ public class WrapperClassTester {
         Integer integer = new Integer(i);// Integer wrapper class instantiation
 
         int i2 = integer.intValue();// unwrapping primitive data int from wrapper object
+        // OR
+        // int i2 = integer; // auto unboxing
         Integer integer2 = new Integer("23");
 
         // all wrapper class except Character can take String in argument
@@ -40,7 +42,7 @@ public class WrapperClassTester {
         // Addition of Integer with Float
         Float f = intObj1.floatValue() + f1;
         System.out.println("Addition of intObj1 and f1: " + intObj1 + " + " + f1 + " = " + f);
-        
+
         // Double wrapper class
         double y = Double.parseDouble("34.7");
         System.out.println(y);
