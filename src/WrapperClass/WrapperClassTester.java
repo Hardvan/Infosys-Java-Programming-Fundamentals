@@ -1,6 +1,5 @@
 package WrapperClass;
 
-
 public class WrapperClassTester {
     public static void main(String[] args) {
         int i = 45; // primitive data int
@@ -48,6 +47,3 @@ public class WrapperClassTester {
         System.out.println(y);
     }
 }
-
-
-
