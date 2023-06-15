@@ -6,7 +6,7 @@ public class StringDemo {
         String username = "Tendulkar";
         int size = username.length(); // returns the length of string
         if (size > 8 && size < 15) {
-            char arr[] = username.toCharArray();// converts the string to character array
+            char[] arr = username.toCharArray();// converts the string to character array
             int count = 0;
             for (char c : arr) {
                 if (Character.isLetter(c)) {
